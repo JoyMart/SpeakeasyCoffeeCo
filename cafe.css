@@ -1,0 +1,123 @@
+
+body {
+    background-color: rgb(216, 201, 191);
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ /* font family goal = park lane and speedbal no 3 */
+}
+
+#navbar {
+    background-color: seashell;
+    color: #371D10;
+    overflow: hidden;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #371D10;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #371D10;
+    color: rgb(216, 207, 216);
+}
+#navbar a.active {
+    background-color: rgb(216, 207, 216);
+    color: #371D10;
+}
+#navbar a.active:hover {
+    background-color: #371D10;
+    color: rgb(216, 207, 216);
+}
+
+.home-page {
+    background-image: url("img/coffeebeans.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.home-page-p {
+    text-align: center;
+    background-color: rgb(216, 207, 216);
+    /* background-image: url('img/coffee_mug_pink.jpg');
+    background-size: 300px auto;
+    background-repeat: no-repeat; */
+    padding: 1.5%;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 25px;
+    border: 6px double #371D10;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+path {
+    fill: transparent;
+}
+
+
+.about-page {
+    background-color: seashell;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+    border: 6px double #371D10;
+}
+
+.about-page p {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.menu-page {
+    color: #371D10;
+    background-color: rgb(216, 207, 216);
+    border: 6px double #371D10;
+    text-align: center;
+    margin: 5%;
+}
+.coffee-table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+.flavor-table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+table.coffee-table td {
+    margin: 12px;
+    padding: 12px;
+}
+
+table.flavor-table td {
+    margin: 8;
+    padding: 8px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 1.5%;
+    background-color: #371D10;
+    color: rgb(216, 207, 216);
+    width: 100%;
+}
